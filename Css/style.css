@@ -98,30 +98,32 @@ header .nav-bar {
     min-height: 300px;
     padding: 20px;
     background-color: #23272A;
-    border: 1px dashed;
     display: flex;
     justify-content: center;
 }
-
-.column {
+.column{
     width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.col {
+    width:calc(100% / 5 - 40px);
     min-height: 300px;
     border: 1px dashed;
-    display: flex;
-    justify-content: center;
     background-color: #20B2AA;
 }
-
-.col {
-    width: 20%;
+.colfirst{
+    width:calc(100% / 5 - 40px);
+    min-height: 300px;
     border: 1px dashed;
+    background-color: #20B2AA;
+    flex-grow: 1;
+
 }
 
-.col-first {
-    width: 20%;
-    border: 1px dashed;
-    background-color: #F08080;
-}
+
+
+
 
 .last-content {
     width: 80%;
