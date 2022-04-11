@@ -96,12 +96,54 @@ header .nav-bar {
 .sixth-container {
     width: 900px;
     min-height: 300px;
+    padding: 20px;
+    background-color: #23272A;
+    border: 1px dashed;
     display: flex;
     justify-content: center;
-    padding: 20px;
-    }
-    
-.col{
+}
+
+.column {
     width: 80%;
+    min-height: 300px;
+    border: 1px dashed;
+    display: flex;
+    justify-content: center;
     background-color: #20B2AA;
+}
+
+.col {
+    width: 20%;
+    border: 1px dashed;
+}
+
+.col-first {
+    width: 20%;
+    border: 1px dashed;
+    background-color: #F08080;
+}
+
+.last-content {
+    width: 80%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #7FFFD4;
+    min-height: 20px;
+}
+
+.seventh-container {
+    width: 900px;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#7FFFD4;
+}
+
+.Logo,
+.Button {
+    border:2px dashed;
+    padding: 10px;
+    background-color: #FFB6C1;
 }
